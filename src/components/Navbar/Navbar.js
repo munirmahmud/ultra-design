@@ -26,7 +26,7 @@ const Navbar = () => {
         <IconContext.Provider value={{ color: '#fff'}}>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">
+                    <NavLogo to="/" onClick={handleClick}>
                         <NavIcon />
                         ULTRA
                     </NavLogo>
@@ -38,10 +38,10 @@ const Navbar = () => {
                             <NavLinks to="/">Home</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/service">Service</NavLinks>
+                            <NavLinks to="/services">Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/products">Product</NavLinks>
+                            <NavLinks to="/products">Products</NavLinks>
                         </NavItem>
 
                         <NavItemBtn>

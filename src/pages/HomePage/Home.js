@@ -1,6 +1,6 @@
 import React from 'react';
 import { Hero, Pricing } from '../../components';
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data';
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from '../../data/Data';
 
 const Home = () => {
     return (
